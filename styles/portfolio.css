@@ -32,6 +32,22 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+.about-major{
+    padding: 160px 20px;
+
+}
+.about-major h1 {
+    font-size: 64px;
+    line-height: 70px;
+}
+.about-major h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+
+.about-major-content {
+    margin: 30px;
+}
 
 .major {
     background-color: var(--secondary-color);
@@ -86,4 +102,14 @@ p {
     padding: 0;
     text-align: center;
  }
+ .about-major {
+    text-align: center;
+    padding: 0;
 }
+}
+ img {
+    
+    width: 350px;
+    border-radius: 10px;
+ }
+ 
