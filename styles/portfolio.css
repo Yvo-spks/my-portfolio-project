@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-    font-size: 64px;
+    font-size: 60px;
 }
 
 h3 {
@@ -33,7 +33,7 @@ h3 {
 
 p {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 30px;
 }
 .content-container{
@@ -41,7 +41,7 @@ p {
 
 }
 .content h1 {
-    font-size: 64px;
+    font-size: 58px;
     line-height: 70px;
 }
 .content h2 {
@@ -50,14 +50,14 @@ p {
 }
 
 .content h3{
-    font-size:24px;
+    font-size:22px;
     line-height:1.5;
     margin:20px 0 0 ;
     font-family: var(--default-font-family);
 }
 
 .content p {
-   font-size: 14px;
+   font-size: 12px;
    
 }
 
@@ -106,12 +106,13 @@ p {
 
 }
  .img-fluid {
-    width: 500px;
+    width: 450px;
  }
 
  .img-fluid-flow {
-    width: 500px;
+    width: 248px;
     border-radius:10px ;
+    
  }
 
 .project-description{
@@ -193,21 +194,27 @@ footer .social-links a {
 
 @media (max-width:900px) {
     h2 {
-        font-size: 44px;
+        font-size: 42px;
     }
     h3 {
-        font-size: 18px;
+        font-size: 14px;
     }
     .btn {
         font-size: 18px;
     }
- .project-description{
+ .project-description {
     padding: 0;
     text-align: center;
  }
+
+ 
  .content {
     text-align: center;
     padding: 0;
+}
+.content h1{
+    font-size:40px;
+    line-height: 50px;
 }
 nav a {
     font-size: 14px;
@@ -218,7 +225,7 @@ nav a {
 
  img {
     
-    width: 350px;
+    width: 200px;
     border-radius: 10px;
  }
  
